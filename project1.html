@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  h1 {
+    background: -webkit-linear-gradient(#ec7702, #e6c69f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+
+  h2 {
+    background: -webkit-linear-gradient(#cf3105, #cd6708);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  nav ul li {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h3 {
+    height: 50px;
+    overflow: hidden;
+    text-align: justify;
+    font-style: bold;
+  }
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1</title>
+  <link rel="stylesheet" href="project1.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" />
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/sharp-solid.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/sharp-regular.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="../pngwing.com.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Header -->
+  <header
+    class="bg-[url('https://leatriceeiseman.com/wp-content/uploads/2023/12/Screen-Shot-2023-12-06-at-1.45.41-PM-1200x673.png')] py-2 z-10">
+    <nav class="container flex items-center py-2 px-5 font-bold width:100% height:auto">
+      <div class="py-1 flex">
+        <img
+          src="https://s.tmimgcdn.com/scr/1200x750/306300/natural-massage-beauty-logo-template-letter-h_306376-original.jpg"
+          alt="hinh" width="20% height:10%" style="border-radius: 50px; opacity: 85%;">
+        <h1 class="py-10 px-10 uppercase text-5xl">homilian</h1>
+      </div>
+      <ul
+        class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xl text-orange-700 ">
+        <li class="cursor-pointer">Home</li>
+        <li class="cursor-pointer">List</li>
+        <li class="cursor-pointer">New</li>
+        <a href="signup.html"><button type="button"
+            class="uppercase rounded-md bg-red-500 text-white text-xs px-7 py-3">Sign
+            up</button></a>
+      </ul>
+      <div class="flex sm:hidden flex-1 justify-end">
+        <i class="text-3xl fa fa-bars"></i>
+      </div>
+    </nav>
+    <form class="max-w-md mx-auto">
+      <label for="default-search" class="text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+      <div class="relative">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <svg class="w-4 h-4 text-red-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+          </svg>
+        </div>
+        <input type="search" id="default-search"
+          class="block w-full p-4 ps-10 text-sm text-red-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-red-600 dark:placeholder-red-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="Search for something" required />
+        <button type="submit"
+          class="text-white absolute end-2.5 bottom-2.5 bg-red-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+      </div>
+    </form>
+  </header>
+
+  <!-- Products -->
+  <div class="content">
+    <div class="menu">
+      <h3 class="px-4 mb-5 font-bold text-center text-2xl uppercase text-orange-700">List</h3>
+      <a href="https://shopee.vn/%E1%BB%90ng-h%C3%BAt-c%C3%A0-ph%C3%AA-EQUO-kh%C3%B4ng-tan-trong-n%C6%B0%E1%BB%9Bc-h%E1%BB%99p-50-%E1%BB%91ng-size-ti%C3%AAu-chu%E1%BA%A9n-6x210mm-i.405206332.9039247449?sp_atk=b9050783-4f58-49c5-87dc-0dd629b11836&xptdk=b9050783-4f58-49c5-87dc-0dd629b11836" target="_blank"><i class="fa fa-angle-right"></i>  Dụng cụ gỗ</a>
+      <a href="https://shopee.vn/T%C3%BAi-tote-v%E1%BA%A3i-canvas-EQUO-Plastic-is-So-Last-Year-i.405206332.25926052352?sp_atk=a6b86d0c-8572-4e73-98d8-11c0ded9d22d&xptdk=a6b86d0c-8572-4e73-98d8-11c0ded9d22d" target="_blank"><i class="fa fa-angle-right"></i>  Túi tote</a>
+      <a href="https://shopee.vn/B%C3%ACnh-gi%E1%BB%AF-nhi%E1%BB%87t-EQUO-500ml-v3-Plastic-Is-So-Last-Year-i.405206332.24873029875?sp_atk=4366a2e8-e494-478b-a667-46e2d6ab7964&xptdk=4366a2e8-e494-478b-a667-46e2d6ab7964 " target="_blank"><i class="fa fa-angle-right"></i>  Bình đựng nước</a>
+      <a href="https://shopee.vn/equo_officialstore?shopCollection=248725237#product_list" target="_blank"><i class="fa fa-angle-right"></i>  Hộp đựng</a>
+    </div>
+    <div class="product">
+      <div class="bg-orange-50">
+        <h2 class="px-4 py-4 font-bold text-center text-2xl uppercase">Products</h2>
+        <div class="mx-5 max-w-2xl px-4 py-5 sm:px-6 sm:py-4 lg:max-w-7xl lg:px-8 ">
+          <div class="grid grid-cols-1 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+
+            <!-- product 1-->
+            <div class="aspect-h-1 aspect-w-1 w-full xl:aspect-h-8 xl:aspect-w-7 mb-10">
+              <img src="h1.jpg" alt="product 1"
+                class="object-cover object-center group-hover:opacity-75 rounded-lg hover:scale-150">
+              <a href="https://shopee.vn/%E1%BB%90ng-h%C3%BAt-c%C3%A0-ph%C3%AA-EQUO-kh%C3%B4ng-tan-trong-n%C6%B0%E1%BB%9Bc-h%E1%BB%99p-50-%E1%BB%91ng-size-ti%C3%AAu-chu%E1%BA%A9n-6x210mm-i.405206332.9039247449?sp_atk=b9050783-4f58-49c5-87dc-0dd629b11836&xptdk=b9050783-4f58-49c5-87dc-0dd629b11836"
+                class="group" target="_blank">
+                <h3 class="mt-4 text-sm text-gray-700">Ống hút cà phê EQUO không tan trong nước hộp 50 ống size tiêu
+                  chuẩn
+                  6x210mm
+                </h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">$3</p>
+              </a>
+            </div>
+
+            <!-- product 2-->
+            <div class="aspect-h-1 aspect-w-1 w-full xl:aspect-h-8 xl:aspect-w-7">
+              <img src="h2.jpg" alt="product 2"
+                class="object-cover object-center group-hover:opacity-75 rounded-lg hover:scale-150">
+              <a href="https://shopee.vn/N%C4%A9a-g%E1%BB%97-EQUO-ph%C3%A2n-h%E1%BB%A7y-ho%C3%A0n-to%C3%A0n-h%E1%BB%99p-15-chi%E1%BA%BFc-size-160x27mm-i.405206332.12098637380?sp_atk=cf817e33-6d08-4520-b01b-321e753b9257&xptdk=cf817e33-6d08-4520-b01b-321e753b9257"
+                class="group" target="_blank">
+                <h3 class="mt-4 text-sm text-gray-700">Nĩa gỗ EQUO phân hủy hoàn toàn hộp 15 chiếc size 160x27mm
+                </h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">$0.7</p>
+              </a>
+            </div>
+
+            <!-- product 3 -->
+            <div class="aspect-h-1 aspect-w-1 w-full xl:aspect-h-8 xl:aspect-w-7">
+              <img src="h3.jpg" alt="product 3"
+                class="object-cover object-center group-hover:opacity-75 rounded-lg hover:scale-150">
+              <a href="https://shopee.vn/equo_officialstore?shopCollection=248725237#product_list" class="group"
+                target="_blank">
+                <h3 class="mt-4 text-sm text-gray-700">Hộp bã mía EQUO 3 ngăn size 225x175mm thùng 400 cái (Không kèm
+                  nắp)
+                </h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">$50</p>
+              </a>
+            </div>
+            <!-- product 4 -->
+            <div class="aspect-h-1 aspect-w-1 w-full xl:aspect-h-8 xl:aspect-w-7">
+              <img src="h4.jpg" alt="product 4"
+                class="object-cover object-center group-hover:opacity-75 rounded-lg hover:scale-150">
+              <a href="https://shopee.vn/T%C3%BAi-tote-v%E1%BA%A3i-canvas-EQUO-Plastic-is-So-Last-Year-i.405206332.25926052352?sp_atk=a6b86d0c-8572-4e73-98d8-11c0ded9d22d&xptdk=a6b86d0c-8572-4e73-98d8-11c0ded9d22d"
+                class="group" target="_blank">
+                <h3 class="mt-4 text-sm text-gray-700">Túi tote vải canvas EQUO - Plastic is So Last Year</h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">$5</p>
+              </a>
+            </div>
+
+          </div>
+          <div class="grid grid-cols-1 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 mb-20">
+            <!-- product 1-->
+            <div class="aspect-h-1 aspect-w-1 w-full xl:aspect-h-8 xl:aspect-w-7">
+              <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lu4ic4ej2l9bff" alt="product 1"
+                class="object-cover object-center group-hover:opacity-75 rounded-lg hover:scale-150">
+              <a href="https://shopee.vn/B%C3%ACnh-gi%E1%BB%AF-nhi%E1%BB%87t-EQUO-500ml-v3-Plastic-Is-So-Last-Year-i.405206332.24873029875?sp_atk=4366a2e8-e494-478b-a667-46e2d6ab7964&xptdk=4366a2e8-e494-478b-a667-46e2d6ab7964"
+                class="group" target="_blank">
+                <h3 class="mt-4 text-sm text-gray-700">Bình giữ nhiệt EQUO 500ml v3 - Plastic Is So Last Year
+                </h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">$11</p>
+              </a>
+            </div>
+
+            <!-- product 2-->
+            <div class="aspect-h-1 aspect-w-1 w-full xl:aspect-h-8 xl:aspect-w-7">
+              <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-loc49iesicgba2" alt="product 2"
+                class="object-cover object-center group-hover:opacity-75 rounded-lg hover:scale-150">
+              <a href="https://shopee.vn/B%C3%BAt-ch%C3%AC-m%C3%A0u-m%E1%BA%A7m-c%C3%A2y-EQUO-c%C3%B3-th%E1%BB%83-tr%E1%BB%93ng-%C4%91%C6%B0%E1%BB%A3c-c%C3%A2y-h%E1%BB%99p-10-m%C3%A0u-i.405206332.9860692640?sp_atk=48e3d348-4451-49c6-9a57-2a920799f46c&xptdk=48e3d348-4451-49c6-9a57-2a920799f46c"
+                class="group" target="_blank">
+                <h3 class="mt-4 text-sm text-gray-700">Bút chì màu mầm cây EQUO có thể trồng được cây hộp 10 màu
+                </h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">$3.5</p>
+              </a>
+            </div>
+
+            <!-- product 3 -->
+            <div class="aspect-h-1 aspect-w-1 w-full xl:aspect-h-8 xl:aspect-w-7">
+              <img src="https://down-vn.img.susercontent.com/file/30c69bac3c6dfc825d58f66db667070f" alt="product 3"
+                class="object-cover object-center group-hover:opacity-75 rounded-lg hover:scale-150">
+              <a href="https://shopee.vn/T%C3%BAi-v%E1%BA%A3i-EQUO-thi%E1%BA%BFt-k%E1%BA%BF-Eat-clean-Stay-green-s%E1%BB%AD-d%E1%BB%A5ng-%C4%91%C6%B0%E1%BB%A3c-nhi%E1%BB%81u-l%E1%BA%A7n-i.405206332.17337262477?sp_atk=7b6423c8-3bfc-4e8a-926d-8f6f383ea915&xptdk=7b6423c8-3bfc-4e8a-926d-8f6f383ea915"
+                class="group" target="_blank">
+                <h3 class="mt-4 text-sm text-gray-700">Túi vải EQUO thiết kế Eat clean - Stay green sử dụng được nhiều
+                  lần
+                </h3>
+                </h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">$3</p>
+              </a>
+            </div>
+            <!-- product 4 -->
+            <div class="aspect-h-1 aspect-w-1 w-full xl:aspect-h-8 xl:aspect-w-7">
+              <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lodkhtq2xrjr27" alt="product 4"
+                class="object-cover object-center group-hover:opacity-75 rounded-lg hover:scale-150">
+              <a href="https://shopee.vn/Dao-c%C3%A0-ph%C3%AA-EQUO-ph%C3%A2n-h%E1%BB%A7y-ho%C3%A0n-to%C3%A0n-h%E1%BB%99p-15-chi%E1%BA%BFc-k%C3%ADch-th%C6%B0%E1%BB%9Bc-160x19mm-i.405206332.18741592923?sp_atk=13de6e3c-b27b-4743-9b69-1812df065e17&xptdk=13de6e3c-b27b-4743-9b69-1812df065e17"
+                class="group" target="_blank">
+                <h3 class="mt-4 text-sm text-gray-700">Dao cà phê EQUO phân hủy hoàn toàn hộp 15 chiếc kích thước
+                  160x19mm
+                </h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">$1</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="bg-orange-300">
+    <nav class="container flex items-center py-1.5 px-5 font-bold">
+      <div class="py-1 flex">
+        <img class="sm:h-20 sm:w-10 lg:h-10 lg:w-10"
+          src="https://s.tmimgcdn.com/scr/1200x750/306300/natural-massage-beauty-logo-template-letter-h_306376-original.jpg"
+          alt="hinh" style="border-radius: 50px; opacity: 85%;">
+        <h6 class="py-3 px-3 uppercase text-xs w-3 h-3  text-orange-700">homilian</h6>
+      </div>
+      <ul
+        class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xl text-orange-700 ">
+        <li class="cursor-pointer"><i class="fa-solid fa-phone"></i> 0935 724 503</li>
+        <li class="cursor-pointer"><a href="https://www.facebook.com/ntth.miraitowa?mibextid=ZbWKwL" target="_blank"><i
+              class="fab fa-facebook-square"></i></a></li>
+        <li class="cursor-pointer"><a href="https://www.instagram.com/ntth_miraitowa?igsh=MTBjdjlvMjg1OWZl"
+            target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>
